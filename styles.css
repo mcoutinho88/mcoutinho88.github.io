@@ -97,6 +97,9 @@ body {
 .container-skills {
   width: 500px;
   margin: 50px auto;
+  background-color: rgb(121, 104, 78);
+  padding: 24px;
+  border-radius: 8px;
 }
 
 .container-skills h2 {
