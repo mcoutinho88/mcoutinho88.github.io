@@ -7,14 +7,24 @@ body {
   background-size: contain;
 }
 
+header {
+  background-color: rgb(121, 104, 78);
+  padding: 16px 0;
+  border-radius: 8px;
+}
+
 #title{
   text-align: center;
   color: #000;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .links {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 .links a {
@@ -137,4 +147,26 @@ body {
 
 #contact-me {
   text-align: center;
+}
+
+footer {
+  margin: auto;
+  background-color: rgb(121, 104, 78);
+  border-radius: 8px;
+  padding: 16px 0;
+}
+footer p {
+  text-align: center;
+}
+
+.links-footer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.links-footer a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: opacity 0.2s;
 }
