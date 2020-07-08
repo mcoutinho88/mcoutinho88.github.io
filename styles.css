@@ -1,14 +1,18 @@
+:root {
+  --container-color: rgb(173, 205, 236);
+}
+
 body {
   max-width: 940px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 
-  background-image: url("./assets/background2.jpg"); 
-  background-size: contain;
+  background-image: url("./assets/background.jpg"); 
+  background-size: cover;
 }
 
 header {
-  background-color: rgb(121, 104, 78);
+  background-color: var(--container-color);
   padding: 16px 0;
   border-radius: 8px;
 }
@@ -25,8 +29,9 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
+
 .links a {
   color: #000;
   font-weight: bold;
@@ -41,7 +46,7 @@ header {
 .container-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px 0;
+  margin: 32px 0;
 }
 
 #photo {
@@ -56,14 +61,15 @@ header {
 #about-me{
   width: 300px;
   padding: 8px 32px;
-  background-color: rgb(121, 104, 78);
+  background-color: var(--container-color);
   border-radius: 10%;
   font-size: 14px;
 }
 
 .container {
-  padding: 8px 32px 32px 32px;
-  background-color: rgb(121, 104, 78);
+  padding-top: 8px;
+  padding-bottom: 32px;
+  background-color: var(--container-color);
   border-radius: 8px;
   font-size: 14px;
 }
@@ -107,7 +113,7 @@ header {
 .container-skills {
   width: 500px;
   margin: 50px auto;
-  background-color: rgb(121, 104, 78);
+  background-color: var(--container-color);
   padding: 24px;
   border-radius: 8px;
 }
@@ -151,7 +157,7 @@ header {
 
 footer {
   margin: auto;
-  background-color: rgb(121, 104, 78);
+  background-color: var(--container-color);
   border-radius: 8px;
   padding: 16px 0;
 }
