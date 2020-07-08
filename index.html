@@ -2,87 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css">
   <title>Matheus Coutinho - Portfolio</title>
-  <style>
-    body {
-      max-width: 940px;
-      margin: 0 auto;
-      background-color: blanchedalmond;
-    }
-
-    #title{
-      text-align: center;
-    }
-
-    .links {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-    .links a {
-      color: green;
-      text-decoration: none;
-    }
-    
-    #photo {
-      margin: 0 auto;
-      width: 940px;
-      text-align: center;
-    }
-
-    #photo img {
-      border-radius: 70%;
-    }
-
-    ul li a{
-      color: green;
-      text-decoration: none;
-    }
-  </style>
+  
 </head>
 <body>
   <h1 id="title">Matheus Coutinho - Portfolio</h1>
-
+  
   <div class="links">
     <a href="#about-me">About me</a><br>
     <!-- <a href="#my-abilities">Personal Skills</a> -->
+    <a href="#projects">Projects</a><br>
     <a href="#my-skills">Technical Skills</a><br>
     <a href="#contact-me">Contact me</a><br>
   </div>
   
-  <div id="photo">
-    <a href="https://github.com/mcoutinho88" target="_blank">
-      <img src="https://avatars3.githubusercontent.com/u/42629335?s=460&u=54da0cb312f2d7d153fa97094be16c08857dec2d&v=4" alt="Matheus Coutinho" width="200px">
-    </a>
+  <div class="container-header">
+    <div id="photo">
+      <a href="https://github.com/mcoutinho88" target="_blank">
+        <img src="https://avatars3.githubusercontent.com/u/42629335?s=460&u=54da0cb312f2d7d153fa97094be16c08857dec2d&v=4" alt="Matheus Coutinho" width="200px">
+      </a>
+    </div>
+    
+    <div id="about-me">
+      <h2 >About me</h2>
+      <p>
+        I'm a software developer that sets as high-quality production as priority number one. To achieve that, I believe that working as a team is essential. It helps gaining different perspectives of my work and to learn about new thing. I am passionate about technologies related to Javascript, such as React and NodeJS, also about Deep Learning and Data Science. 
+        I have competencies related to back-end, mobile and web applications using a variety of programming languages and technologies.
+      </p>
+    </div>
   </div>
-  <hr>
-  
-  <h2 id="about-me">About me:</h2>
-  <p>
-  I'm a software developer that sets as high-quality production as priority number one. To achieve that, I believe that working as a team is essential. It helps gaining different perspectives of my work and to learn about new thing. I am passionate about technologies related to Javascript, such as React and NodeJS, also about Deep Learning and Data Science. 
-  I have competencies related to back-end, mobile and web applications using a variety of programming languages and technologies.
-  </p>
-  <hr>
   
   <!-- <h2 id="my-abilities">Personal Skills:</h2>
-  <ul>
-    <li></li>
-  </ul> -->
-
-  <!-- <hr> -->
-
-  <h2 id="my-skills">Technical Skills:</h2>
-  <ul>
-    <li>Javascript</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>React</li>
-    <li>Node.js</li>
-  </ul>
-
-  <h3 id="contact-me">Contact me:</h3>
-  <ul>
-    <li><a href="https://github.com/mcoutinho88" target="_blank">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/matheus-coutinho-cavalcante-569575173/" target="_blank">LinkedIn</a></li>
-  </ul>
-</body>
-</html>
+    <ul>
+      <li></li>
+    </ul> -->
+    
+    <!-- <hr> -->
+    
+    
+    
+    <div class="container" id="projects">
+      <h2>Projects</h2>
+      
+      <div class="projects-container">
+        <div class="project">
+          <h4>Ecoleta</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/next-level-week"><img src="./assets/ecoleta.gif" alt="Ecoleta" width="300px"></a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h4>EMNIST Challenge</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/emnist-challenge-deepx"><img src="./assets/emnist-challenge.png" alt="EMNIST Challenge"  width="300px"></a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h4>Be The Hero</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/be-the-hero-omnistack11"><img src="./assets/bethehero.png" alt="Be The Hero"  width="300px"></a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h4>Foodfy</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/foodfy-challenge-launchbase"><img src="./assets/foodfy.png" alt="Foodfy"  width="300px"></a>
+          </div>
+        </div>
+        <div class="project">
+          <h4>Launchstore</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/launchstore"><img src="./assets/search-preview.PNG" alt="Launchstore"  width="300px"></a>
+          </div>
+        </div>
+        <div class="project">
+          <h4>MyCar Game</h4>
+          <div>
+            <a href="https://github.com/mcoutinho88/Race"><img src="./assets/mycar.png" alt="MyCar Game" width="100px"></a>
+          </div>
+        </div>
+      </div>  
+      
+    </div>
+    
+    <div class="container-skills">
+      <h2 id="my-skills">Technical Skills</h2>
+      <ul>
+        <li><a href="https://www.javascript.com/">Javascript</a> & <a href="https://www.typescriptlang.org/">Typescript</a></li> 
+        <li><a href="https://www.w3.org/">HTML</a></li>
+        <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+        <li><a href="https://reactjs.org/">React</a></li>
+        <li><a href="https://nodejs.org/">Node.js</a></li>
+        <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+        <li><a href="https://www.python.org/">Python</a></li>
+        <li><a href="https://www.tensorflow.org/">Tensorflow</a></li>
+        <li><a href="https://keras.io/">Keras</a></li>
+      </ul>
+    </div>
+    
+    <h2 id="contact-me">Contact me</h3>
+      <div class="container-logos">
+        <a href="https://github.com/mcoutinho88" target="_blank"><img src="./assets/github.png" alt="GitHub Logo" width="150px"></a></li>
+        <a href="https://www.linkedin.com/in/matheus-coutinho-cavalcante-569575173/" target="_blank"><img src="./assets/linkedin-logo.png" alt="LinkedIn Logo" width="100px"></a></li>
+      </div>
+    </body>
+    </html>
